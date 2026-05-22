@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zibrax Studio - Enterprise AI Platforms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav id="mainNav">
+  <div class="logo">Zibrax Studio</div>
+  <div class="nav-right">
+    <div class="nav-buttons">
+      <button class="btn-nav">Log In</button>
+      <button class="btn-nav btn-signup">Sign Up</button>
+    </div>
+    <div class="menu-icon" onclick="toggleSidebar()">☰</div>
+  </div>
+</nav>
+
+<div class="sidebar" id="sidebarMenu">
+  <div class="close-btn" onclick="toggleSidebar()">×</div>
+  <ul class="sidebar-menu">
+    <li><a href="#" onclick="toggleSidebar()">Research Overview</a></li>
+    <li><a href="#" onclick="toggleSidebar()">API Documentation</a></li>
+    <li><a href="#" onclick="toggleSidebar()">Enterprise Models</a></li>
+    <li><a href="#" onclick="toggleSidebar()">Company Status</a></li>
+  </ul>
+</div>
+
+<div id="landingView">
+  <section class="hero">
+    <h1>Build Your Custom AI Agent</h1>
+    <p>Empower production-grade computational asset models and workflows inside Zibrax Studio's localized core compiler network.</p>
+    <button class="btn-main" onclick="openPolicy('terms')">Build Your AI Agent</button>
+  </section>
+
+  <section class="features">
+    <div class="grid">
+      <div class="card">
+        <h3>Context Engineering</h3>
+        <p>Directly pass complex knowledge base parameters, data boundaries, and strict logical constraints straight into the core processor logs seamlessly.</p>
+      </div>
+      <div class="card">
+        <h3>Native Voice Synthesizer</h3>
+        <p>Continuous dynamic audio analysis engine architectures running natively inside localized systems with supreme layout efficiency configurations.</p>
+      </div>
+      <div class="card">
+        <h3>Production Infrastructure</h3>
+        <p>Engineered for corporate optimization metrics, supporting robust framework operations matched precisely across comprehensive responsive environments.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-section">
+    <div class="contact-container">
+      <div class="contact-info">
+        <h2>Get in touch</h2>
+        <p>Contact administrative or engineering managing directors regarding corporate integrations.</p>
+      </div>
+      
+      <div class="form-field">
+        <label>Full Name</label>
+        <input type="text" placeholder="e.g. Alexander Wright">
+      </div>
+      <div class="form-field">
+        <label>Email Address</label>
+        <input type="email" placeholder="name@organization.com">
+      </div>
+      <div class="form-field">
+        <label>Message</label>
+        <textarea rows="4" placeholder="Explain your platform requirements or system support needs..."></textarea>
+      </div>
+      <button class="btn-submit">Submit Request</button>
+    </div>
+  </section>
+
+  <footer class="openai-footer">
+    <div class="footer-brand">Zibrax Studio</div>
+    
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>Support</h4>
+        <ul>
+          <li><a href="#">Help Center ↗</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>More</h4>
+        <ul>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Stories</a></li>
+          <li><a href="#">Academy</a></li>
+          <li><a href="#">Livestreams</a></li>
+          <li><a href="#">Podcast</a></li>
+          <li><a href="#">RSS</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Terms & Policies</h4>
+        <ul>
+          <li><a onclick="openPolicy('terms')">Terms of Use</a></li>
+          <li><a onclick="openPolicy('privacy')">Privacy Policy</a></li>
+          <li><a onclick="openPolicy('terms')">Other Policies</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="social-icons-row">
+        <a href="mailto:zibraxstudio@gmail.com">✉️ Gmail Address</a>
+        <a href="https://facebook.com" target="_blank">🌐 Facebook Page</a>
+        <a href="https://youtube.com" target="_blank">📺 YouTube Channel</a>
+        <a href="https://x.com" target="_blank">𝕏 Twitter / X</a>
+      </div>
+      
+      <div class="footer-legal-bar">
+        <div class="legal-links">
+          <span>Zibrax Studio &copy; 2015–2026</span>
+          <a href="#">Manage Cookies</a>
+        </div>
+        <div class="lang-selector">
+          <span>🌐</span> English <span class="lang-subtext">United States</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+
+<div class="policy-fullscreen" id="policyPage">
+  <div class="policy-container">
+    
+    <div id="termsContent" class="hidden-content">
+      <div class="policy-header">
+        <h2>Zibrax Studio — Terms of Service</h2>
+        <p>Last Updated: May 22, 2026</p>
+        <p class="policy-intro-text">Please read these Terms carefully before using Zibrax Studio. By using the platform, you agree to these Terms.</p>
+      </div>
+      
+      <div class="policy-content">
+        <h3>Eligibility</h3>
+        <p>You must be at least 13 years old to use Zibrax Studio.</p>
+        
+        <h3>What is Zibrax Studio</h3>
+        <p>Zibrax Studio is an AI agent platform where users can create and use custom AI Agents.</p>
+        <p>We use third-party AI models and infrastructure providers.</p>
+        
+        <h3>Account</h3>
+        <p>Your responsibilities:</p>
+        <ul>
+          <li>Keep your account secure</li>
+          <li>Protect your login information</li>
+          <li>Take responsibility for all activity under your account</li>
+        </ul>
+        
+        <h3>Ownership</h3>
+        <p>You own 100% of the content you create:</p>
+        <ul>
+          <li>AI Agents</li>
+          <li>Prompts</li>
+          <li>Knowledge Base</li>
+          <li>Files</li>
+          <li>Chats</li>
+          <li>Custom Instructions</li>
+        </ul>
+        <p>Zibrax Studio does not claim ownership of your content.</p>
+        <p>We only use a limited, non-exclusive, revocable license to store, process, and display your content for providing the service.</p>
+        
+        <h3>AI Output Disclaimer</h3>
+        <p>AI-generated output may not always be accurate.</p>
+        <p>You are responsible for verifying and using the output at your own risk.</p>
+        <p>We do not provide any legal, medical, or financial advice.</p>
+        
+        <h3>AI Model Variation</h3>
+        <p>Due to third-party AI models, the same input may produce different outputs.</p>
+        
+        <h3>Usage Limits</h3>
+        <p>We may apply usage limits for system stability and abuse prevention.</p>
+        <p>If limits are exceeded, the service may become slow or temporarily unavailable.</p>
+        
+        <h3>Third-Party Services & Data Processing</h3>
+        <p>We use Cloudflare, Clerk, Vercel, and AI providers.</p>
+        <p>These services act as data processors and only process data for service delivery and infrastructure purposes.</p>
+        <p>See our <a onclick="showPrivacyInsideTerms()" class="policy-link-inline">Privacy Policy</a> for details.</p>
+        
+        <h3>Service Availability</h3>
+        <p>The service is provided “as is” and “as available”.</p>
+        <p>We make reasonable efforts to maintain data availability and system stability.</p>
+        <p>However, we do not guarantee 100% uptime or zero data loss.</p>
+        
+        <h3>Liability Limitation</h3>
+        <p>To the maximum extent permitted by law:</p>
+        <ul>
+          <li>Zibrax Studio is not liable for any indirect, incidental, consequential, or business losses.</li>
+          <li>This includes losses from AI output, system downtime, or third-party failures.</li>
+          <li>Our maximum liability is limited to the amount you paid in the last 12 months.</li>
+        </ul>
+        
+        <h3>Account Suspension & Termination</h3>
+        <p>We may suspend or terminate your account if:</p>
+        <ul>
+          <li>You violate these Terms</li>
+          <li>You abuse the system</li>
+          <li>Illegal activity is detected</li>
+        </ul>
+        <p>Upon termination, we will:</p>
+        <ul>
+          <li>Notify you where possible</li>
+          <li>Provide a reasonable opportunity to export your data (if legally allowed)</li>
+        </ul>
+        
+        <h3>Privacy Policy</h3>
+        <p>Your data is handled according to our <a onclick="showPrivacyInsideTerms()" class="policy-link-inline">Privacy Policy</a>. By using the service, you also agree to the Privacy Policy.</p>
+        
+        <h3>Changes to Terms</h3>
+        <p>We may update these Terms.</p>
+        <p>For major changes, we will provide 30 days notice (via email or platform).</p>
+        
+        <h3>Contact</h3>
+        <p>Email: <a href="mailto:zibraxstudio@gmail.com" class="policy-link-mailto">zibraxstudio@gmail.com</a></p>
+      </div>
+    </div>
+
+    <div id="privacyContent" class="hidden-content">
+      <div class="policy-header">
+        <h2>Zibrax Studio — Privacy Policy</h2>
+        <p>Last Updated: May 22, 2026</p>
+        <p class="policy-intro-text">This Privacy Policy explains how we collect, use, and protect your data. By using Zibrax Studio, you agree to this Policy.</p>
+      </div>
+      
+      <div class="policy-content">
+        <h3>What Data We Collect</h3>
+        <p>We collect the following data:</p>
+        <ul>
+          <li><strong>Account Information:</strong> Email and name (via Clerk login)</li>
+          <li><strong>User Content:</strong> AI Agents, prompts, knowledge base, files, and chat history</li>
+          <li><strong>Usage Data:</strong> IP address, device information, browser type, and usage logs</li>
+        </ul>
+        <p>This data is used only to provide the service, ensure security, and improve performance.</p>
+        
+        <h3>How We Use Your Data</h3>
+        <p>We use your data only for:</p>
+        <ul>
+          <li>Providing and managing the service</li>
+          <li>Security, fraud detection, and abuse prevention</li>
+          <li>Improving the platform and providing support</li>
+        </ul>
+        <p>We never use your data for AI training, selling, or profiling.</p>
+        
+        <h3>Chat Data & AI Processing</h3>
+        <p>Your chats with AI Agents are automatically processed to generate responses.</p>
+        <p>By default, no human reads your chats.</p>
+        <p>However, authorized staff may access chats in limited cases such as:</p>
+        <ul>
+          <li>Security or abuse investigation</li>
+          <li>System debugging</li>
+          <li>Legal obligations or government requests</li>
+        </ul>
+        <p>All such access is restricted and purpose-based.</p>
+        
+        <h3>Third-Party Services (Data Processors)</h3>
+        <p>We use the following third-party services:</p>
+        <ul>
+          <li><strong>Clerk</strong> — Authentication and login</li>
+          <li><strong>Cloudflare D1</strong> — Database and data storage</li>
+          <li><strong>Vercel</strong> — Hosting and analytics</li>
+          <li><strong>AI Providers (OpenAI, Anthropic, etc.)</strong> — AI response generation</li>
+        </ul>
+        <p>These providers process data only for service delivery and follow their own data protection policies.</p>
+        
+        <h3>Data Storage & International Transfer</h3>
+        <p>Your data is stored on Cloudflare D1 and other trusted infrastructure providers.</p>
+        <p>These servers may be located in different countries. We use industry-standard safeguards (such as contractual clauses) when transferring data.</p>
+        
+        <h3>Your Rights (GDPR & CCPA)</h3>
+        <p>You have the right to:</p>
+        <ul>
+          <li>Access your data</li>
+          <li>Correct inaccurate data</li>
+          <li>Delete your account and data</li>
+          <li>Export your data</li>
+        </ul>
+        <p>To exercise these rights, contact us at: <a href="mailto:zibraxstudio@gmail.com" class="policy-link-mailto">zibraxstudio@gmail.com</a></p>
+        <p>We usually respond within 30 days.</p>
+        
+        <h3>Data Retention</h3>
+        <p>We keep your data as long as your account is active.</p>
+        <p>After account deletion, we permanently remove your data within a reasonable time (maximum 30 days), unless we are required to keep some data for legal or security reasons.</p>
+        
+        <h3>Security</h3>
+        <p>We use industry-standard security measures such as encryption and access controls to protect your data.</p>
+        <p>However, no internet-based system can guarantee 100% security.</p>
+        
+        <h3>Cookies</h3>
+        <p>We use two types of cookies:</p>
+        <ul>
+          <li><strong>Essential Cookies</strong> — Required for login and system operation (cannot be disabled)</li>
+          <li><strong>Analytics Cookies</strong> — For performance analysis (we ask for your consent)</li>
+        </ul>
+        <p>You can disable cookies through your browser settings.</p>
+        
+        <h3>Children’s Privacy</h3>
+        <p>Zibrax Studio is not intended for users under 13 years old.</p>
+        <p>We do not knowingly collect data from children under 13.</p>
+        
+        <h3>Changes to This Policy</h3>
+        <p>We may update this Privacy Policy from time to time.</p>
+        <p>For major changes, we will notify you via email or platform notification.</p>
+        
+        <h3>Contact</h3>
+        <p>For any privacy-related questions, please contact us: <a href="mailto:zibraxstudio@gmail.com" class="policy-link-mailto">zibraxstudio@gmail.com</a></p>
+        
+        <h3>Final Note</h3>
+        <p>By using Zibrax Studio, you consent to this Privacy Policy.</p>
+      </div>
+    </div>
+
+  </div>
+  <div class="policy-bar">
+    <button class="btn-nav cancel-policy-btn" onclick="closePolicy()">Cancel</button>
+    <button class="btn-main" onclick="acceptPolicy()">I Agree & Continue</button>
+  </div>
+</div>
+
+<div class="loading-screen" id="loadingState">
+  <div class="spinner"></div>
+</div>
+
+<div id="appWorkspace">
+  <header id="mainHeader">Zibrax Studio AI Builder</header>
+
+  <div class="builder-container" id="builderSection">
+    <h2>Configure Your AI Agent</h2>
+    
+    <div class="form-group">
+      <label>Agent Name</label>
+      <input id="name" maxlength="15" placeholder="e.g. PixGPT, Alpha" oninput="updateCounter('name', 15)">
+      <span class="counter" id="nameCounter">0 / 15 characters</span>
+    </div>
+
+    <div class="form-group">
+      <label>Creator Name</label>
+      <input id="creator" maxlength="15" placeholder="e.g. John Doe, Zibrax Dev" oninput="updateCounter('creator', 15)">
+      <span class="counter" id="creatorCounter">0 / 15 characters</span>
+    </div>
+
+    <div class="form-group">
+      <label>About Creator</label>
+      <textarea id="aboutCreator" class="tall-textarea" placeholder="Describe the creator details..." oninput="updateWordCounter('aboutCreator', 60)"></textarea>
+      <span class="counter" id="aboutCreatorCounter">0 / 60 words maximum</span>
+    </div>
+
+    <div class="form-group">
+      <label>Agent Personality / Core Prompt</label>
+      <textarea id="personality" class="tall-textarea" placeholder="Define behavioral nature..." oninput="updateWordCounter('personality', 150)"></textarea>
+      <span class="counter" id="personalityCounter">0 / 150 words maximum</span>
+    </div>
+
+    <div class="form-group">
+      <label>External Information / Knowledge Base</label>
+      <textarea id="extra" class="tall-textarea" placeholder="Add external details..." oninput="updateWordCounter('extra', 200)"></textarea>
+      <span class="counter" id="extraCounter">0 / 200 words maximum</span>
+    </div>
+
+    <div class="form-group">
+      <label>UI Design Theme</label>
+      <select id="theme">
+        <option value="light">☀️ Premium Light Theme</option>
+        <option value="dark">🌙 Midnight Dark Theme</option>
+        <option value="neon">🧬 Cyber Neon Theme</option>
+      </select>
+    </div>
+    
+    <button class="btn-block" id="buildBtn" onclick="startBuild()">Build AI Agent</button>
+
+    <div class="success-card-view" id="successCardSection">
+      <div class="success-icon-circle">✔</div>
+      <h3 class="success-title">Agent Created</h3>
+      
+      <div class="link-box-container">
+        <input type="text" id="liveAgentLink" readonly placeholder="https://zibraxstudio.com/agent/live-link-id">
+        <button class="copy-link-btn" onclick="copyAgentLiveLink()" title="Copy Link">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+          </svg>
+        </button>
+      </div>
+      
+      <button class="btn-block btn-visit" onclick="visitChatInterface()">Visit</button>
+    </div>
+  </div>
+
+  <div class="chat-interface" id="chatSection">
+    <div class="topbar">
+      <div class="title-area">
+        <div class="title" id="chatTitle">AI Agent</div>
+        <div class="status"></div>
+        <span class="creator-info" id="chatCreator"></span>
+      </div>
+      <div class="actions">
+        <button class="icon-btn" onclick="toggleSearch(event)" title="Search">🔍</button>
+        <button class="icon-btn" onclick="togglePanel(event)" title="Settings">⚙️</button>
+        
+        <div class="panel" id="panel">
+          <div class="clear-action-item" onclick="clearChat()">Clear Conversation</div>
+          <div class="studio-link-item">
+            <a href="https://zibrax-studio.pages.dev/" target="_blank">Built with Zibrax Studio</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="search-container" id="searchContainer">
+      <input type="text" id="searchInput" placeholder="Search processed logs..." oninput="filterMessages()">
+    </div>
+
+    <div class="chat-body" id="chatBody"></div>
+
+    <div class="inputArea">
+      <div class="input-wrapper">
+        <div class="wave-canvas-container" id="waveContainer">
+          <div class="wave-bar"></div><div class="wave-bar"></div><div class="wave-bar"></div>
+          <div class="wave-bar"></div><div class="wave-bar"></div><div class="wave-bar"></div>
+          <div class="wave-bar"></div>
+        </div>
+        <textarea id="input" placeholder="Type or use your voice to dictate..." rows="1"></textarea>
+        <button class="voice-mic-btn" id="voiceBtn" onclick="startVoiceRecognition(event)" title="Voice Dictation">
+          <div class="creative-mic-icon"></div>
+        </button>
+      </div>
+      <button id="sendBtn" class="send-btn" onclick="sendMsg()">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <div class="loaderScreen" id="loader">
+    <div class="spinner"></div>
+    <div id="loaderText">Building...</div>
+    <div class="percentage-display" id="percentageLabel">0%</div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
